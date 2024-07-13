@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48DCC1DD2C42A22600EF78DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1DC2C42A22600EF78DE /* AppDelegate.swift */; };
+		48DCC1DF2C42A22600EF78DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1DE2C42A22600EF78DE /* SceneDelegate.swift */; };
+		48DCC1E12C42A22600EF78DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1E02C42A22600EF78DE /* ViewController.swift */; };
+		48DCC1E42C42A22600EF78DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48DCC1E32C42A22600EF78DE /* Base */; };
+		48DCC1E62C42A22700EF78DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DCC1E52C42A22700EF78DE /* Assets.xcassets */; };
+		48DCC1E92C42A22700EF78DE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48DCC1E82C42A22700EF78DE /* Base */; };
+		48DCC1F42C42A22700EF78DE /* MumukPreferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1F32C42A22700EF78DE /* MumukPreferTests.swift */; };
+		48DCC1FE2C42A22700EF78DE /* MumukPreferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1FD2C42A22700EF78DE /* MumukPreferUITests.swift */; };
+		48DCC2002C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1FF2C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48DCC1F02C42A22700EF78DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48DCC1D12C42A22600EF78DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DCC1D82C42A22600EF78DE;
+			remoteInfo = MumukPrefer;
+		};
+		48DCC1FA2C42A22700EF78DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48DCC1D12C42A22600EF78DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DCC1D82C42A22600EF78DE;
+			remoteInfo = MumukPrefer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48DCC1D92C42A22600EF78DE /* MumukPrefer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MumukPrefer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DCC1DC2C42A22600EF78DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48DCC1DE2C42A22600EF78DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48DCC1E02C42A22600EF78DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48DCC1E32C42A22600EF78DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48DCC1E52C42A22700EF78DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48DCC1E82C42A22700EF78DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48DCC1EA2C42A22700EF78DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DCC1EF2C42A22700EF78DE /* MumukPreferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MumukPreferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DCC1F32C42A22700EF78DE /* MumukPreferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumukPreferTests.swift; sourceTree = "<group>"; };
+		48DCC1F92C42A22700EF78DE /* MumukPreferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MumukPreferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DCC1FD2C42A22700EF78DE /* MumukPreferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumukPreferUITests.swift; sourceTree = "<group>"; };
+		48DCC1FF2C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumukPreferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48DCC1D62C42A22600EF78DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DCC1EC2C42A22700EF78DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DCC1F62C42A22700EF78DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48DCC1D02C42A22600EF78DE = {
+			isa = PBXGroup;
+			children = (
+				48DCC1DB2C42A22600EF78DE /* MumukPrefer */,
+				48DCC1F22C42A22700EF78DE /* MumukPreferTests */,
+				48DCC1FC2C42A22700EF78DE /* MumukPreferUITests */,
+				48DCC1DA2C42A22600EF78DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48DCC1DA2C42A22600EF78DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DCC1D92C42A22600EF78DE /* MumukPrefer.app */,
+				48DCC1EF2C42A22700EF78DE /* MumukPreferTests.xctest */,
+				48DCC1F92C42A22700EF78DE /* MumukPreferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48DCC1DB2C42A22600EF78DE /* MumukPrefer */ = {
+			isa = PBXGroup;
+			children = (
+				48DCC1DC2C42A22600EF78DE /* AppDelegate.swift */,
+				48DCC1DE2C42A22600EF78DE /* SceneDelegate.swift */,
+				48DCC1E02C42A22600EF78DE /* ViewController.swift */,
+				48DCC1E22C42A22600EF78DE /* Main.storyboard */,
+				48DCC1E52C42A22700EF78DE /* Assets.xcassets */,
+				48DCC1E72C42A22700EF78DE /* LaunchScreen.storyboard */,
+				48DCC1EA2C42A22700EF78DE /* Info.plist */,
+			);
+			path = MumukPrefer;
+			sourceTree = "<group>";
+		};
+		48DCC1F22C42A22700EF78DE /* MumukPreferTests */ = {
+			isa = PBXGroup;
+			children = (
+				48DCC1F32C42A22700EF78DE /* MumukPreferTests.swift */,
+			);
+			path = MumukPreferTests;
+			sourceTree = "<group>";
+		};
+		48DCC1FC2C42A22700EF78DE /* MumukPreferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48DCC1FD2C42A22700EF78DE /* MumukPreferUITests.swift */,
+				48DCC1FF2C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift */,
+			);
+			path = MumukPreferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48DCC1D82C42A22600EF78DE /* MumukPrefer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DCC2032C42A22700EF78DE /* Build configuration list for PBXNativeTarget "MumukPrefer" */;
+			buildPhases = (
+				48DCC1D52C42A22600EF78DE /* Sources */,
+				48DCC1D62C42A22600EF78DE /* Frameworks */,
+				48DCC1D72C42A22600EF78DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MumukPrefer;
+			productName = MumukPrefer;
+			productReference = 48DCC1D92C42A22600EF78DE /* MumukPrefer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48DCC1EE2C42A22700EF78DE /* MumukPreferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DCC2062C42A22700EF78DE /* Build configuration list for PBXNativeTarget "MumukPreferTests" */;
+			buildPhases = (
+				48DCC1EB2C42A22700EF78DE /* Sources */,
+				48DCC1EC2C42A22700EF78DE /* Frameworks */,
+				48DCC1ED2C42A22700EF78DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48DCC1F12C42A22700EF78DE /* PBXTargetDependency */,
+			);
+			name = MumukPreferTests;
+			productName = MumukPreferTests;
+			productReference = 48DCC1EF2C42A22700EF78DE /* MumukPreferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48DCC1F82C42A22700EF78DE /* MumukPreferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DCC2092C42A22700EF78DE /* Build configuration list for PBXNativeTarget "MumukPreferUITests" */;
+			buildPhases = (
+				48DCC1F52C42A22700EF78DE /* Sources */,
+				48DCC1F62C42A22700EF78DE /* Frameworks */,
+				48DCC1F72C42A22700EF78DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48DCC1FB2C42A22700EF78DE /* PBXTargetDependency */,
+			);
+			name = MumukPreferUITests;
+			productName = MumukPreferUITests;
+			productReference = 48DCC1F92C42A22700EF78DE /* MumukPreferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48DCC1D12C42A22600EF78DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					48DCC1D82C42A22600EF78DE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					48DCC1EE2C42A22700EF78DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 48DCC1D82C42A22600EF78DE;
+					};
+					48DCC1F82C42A22700EF78DE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 48DCC1D82C42A22600EF78DE;
+					};
+				};
+			};
+			buildConfigurationList = 48DCC1D42C42A22600EF78DE /* Build configuration list for PBXProject "MumukPrefer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48DCC1D02C42A22600EF78DE;
+			productRefGroup = 48DCC1DA2C42A22600EF78DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48DCC1D82C42A22600EF78DE /* MumukPrefer */,
+				48DCC1EE2C42A22700EF78DE /* MumukPreferTests */,
+				48DCC1F82C42A22700EF78DE /* MumukPreferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48DCC1D72C42A22600EF78DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCC1E62C42A22700EF78DE /* Assets.xcassets in Resources */,
+				48DCC1E92C42A22700EF78DE /* Base in Resources */,
+				48DCC1E42C42A22600EF78DE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DCC1ED2C42A22700EF78DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DCC1F72C42A22700EF78DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DCC1D52C42A22600EF78DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCC1E12C42A22600EF78DE /* ViewController.swift in Sources */,
+				48DCC1DD2C42A22600EF78DE /* AppDelegate.swift in Sources */,
+				48DCC1DF2C42A22600EF78DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DCC1EB2C42A22700EF78DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCC1F42C42A22700EF78DE /* MumukPreferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DCC1F52C42A22700EF78DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DCC2002C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift in Sources */,
+				48DCC1FE2C42A22700EF78DE /* MumukPreferUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48DCC1F12C42A22700EF78DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48DCC1D82C42A22600EF78DE /* MumukPrefer */;
+			targetProxy = 48DCC1F02C42A22700EF78DE /* PBXContainerItemProxy */;
+		};
+		48DCC1FB2C42A22700EF78DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48DCC1D82C42A22600EF78DE /* MumukPrefer */;
+			targetProxy = 48DCC1FA2C42A22700EF78DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48DCC1E22C42A22600EF78DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48DCC1E32C42A22600EF78DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48DCC1E72C42A22700EF78DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48DCC1E82C42A22700EF78DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48DCC2012C42A22700EF78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48DCC2022C42A22700EF78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48DCC2042C42A22700EF78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MumukPrefer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MumukPrefer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48DCC2052C42A22700EF78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MumukPrefer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MumukPrefer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48DCC2072C42A22700EF78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MumukPreferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MumukPrefer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MumukPrefer";
+			};
+			name = Debug;
+		};
+		48DCC2082C42A22700EF78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MumukPreferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MumukPrefer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MumukPrefer";
+			};
+			name = Release;
+		};
+		48DCC20A2C42A22700EF78DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MumukPreferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MumukPrefer;
+			};
+			name = Debug;
+		};
+		48DCC20B2C42A22700EF78DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MumukPreferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MumukPrefer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48DCC1D42C42A22600EF78DE /* Build configuration list for PBXProject "MumukPrefer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DCC2012C42A22700EF78DE /* Debug */,
+				48DCC2022C42A22700EF78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DCC2032C42A22700EF78DE /* Build configuration list for PBXNativeTarget "MumukPrefer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DCC2042C42A22700EF78DE /* Debug */,
+				48DCC2052C42A22700EF78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DCC2062C42A22700EF78DE /* Build configuration list for PBXNativeTarget "MumukPreferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DCC2072C42A22700EF78DE /* Debug */,
+				48DCC2082C42A22700EF78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DCC2092C42A22700EF78DE /* Build configuration list for PBXNativeTarget "MumukPreferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DCC20A2C42A22700EF78DE /* Debug */,
+				48DCC20B2C42A22700EF78DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48DCC1D12C42A22600EF78DE /* Project object */;
+}
