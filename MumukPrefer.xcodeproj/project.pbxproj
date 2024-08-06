@@ -16,6 +16,7 @@
 		48DCC1F42C42A22700EF78DE /* MumukPreferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1F32C42A22700EF78DE /* MumukPreferTests.swift */; };
 		48DCC1FE2C42A22700EF78DE /* MumukPreferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1FD2C42A22700EF78DE /* MumukPreferUITests.swift */; };
 		48DCC2002C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC1FF2C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift */; };
+		48DCC2152C4A9F6900EF78DE /* PreferViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DCC2142C4A9F6900EF78DE /* PreferViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		48DCC1F92C42A22700EF78DE /* MumukPreferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MumukPreferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DCC1FD2C42A22700EF78DE /* MumukPreferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumukPreferUITests.swift; sourceTree = "<group>"; };
 		48DCC1FF2C42A22700EF78DE /* MumukPreferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MumukPreferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48DCC2142C4A9F6900EF78DE /* PreferViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				48DCC1DC2C42A22600EF78DE /* AppDelegate.swift */,
 				48DCC1DE2C42A22600EF78DE /* SceneDelegate.swift */,
+				48DCC2142C4A9F6900EF78DE /* PreferViewController2.swift */,
 				48DCC1E02C42A22600EF78DE /* ViewController.swift */,
 				48DCC1E22C42A22600EF78DE /* Main.storyboard */,
 				48DCC1E52C42A22700EF78DE /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			files = (
 				48DCC1E12C42A22600EF78DE /* ViewController.swift in Sources */,
 				48DCC1DD2C42A22600EF78DE /* AppDelegate.swift in Sources */,
+				48DCC2152C4A9F6900EF78DE /* PreferViewController2.swift in Sources */,
 				48DCC1DF2C42A22600EF78DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
