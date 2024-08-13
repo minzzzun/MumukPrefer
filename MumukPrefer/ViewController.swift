@@ -6,6 +6,45 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     private var currentPage = 0
     private var isScrollingProgrammatically = false
 
+        
+    let titleLabel1 : UILabel = {
+        let label = UILabel()
+        label.text = "오늘 먹고 싶은 입맛"
+//        label.font = UIFont(name: "Pretendard-Bold", size: 26)
+        label.font = UIFont.systemFont(ofSize: 26 ,weight: .bold)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    let titleLabel2 : UILabel = {
+        let label = UILabel()
+        label.text = "을"
+//        label.font = UIFont(name: "Pretendard-Light", size: 26)
+        label.font = UIFont.systemFont(ofSize: 26 ,weight: .light)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    let titleLabel3 : UILabel = {
+        let label = UILabel()
+        label.text = "모두 골라주세요!"
+//        label.font = UIFont(name: "Pretendard-Light", size: 26)
+        label.font = UIFont.systemFont(ofSize: 26 ,weight: .light)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    let titleLabel4 : UILabel = {
+        let label = UILabel()
+        label.text = "오늘의 입맛은 입맛찾기 페이지에서 언제든 수정이 가능해요!"
+//        label.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        label.font = UIFont.systemFont(ofSize: 14 ,weight: .semibold)
+        label.textColor = #colorLiteral(red: 0.7254901961, green: 0.7254901961, blue: 0.7254901961, alpha: 1)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    
     let skipButton: UIButton = {
         let button = UIButton()
         button.setTitle("SKIP", for: .normal)
@@ -66,28 +105,59 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     }
     
     func setUI() {
+        view.addSubview(titleLabel1)
+        view.addSubview(titleLabel2)
+        view.addSubview(titleLabel3)
+        view.addSubview(titleLabel4)
         view.addSubview(lineImage)
         view.addSubview(nextButton)
         view.addSubview(line)
         view.addSubview(skipButton)
+        
+        
         
         NSLayoutConstraint.activate([
             lineImage.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 57.4),
             lineImage.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 32),
             lineImage.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -32),
             
-            nextButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -13.5),
-            nextButton.leadingAnchor.constraint(equalTo: line.trailingAnchor, constant: 10.6),
-            nextButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -32),
-            nextButton.heightAnchor.constraint(equalToConstant: 48),
+            titleLabel1.topAnchor.constraint(equalTo: lineImage.topAnchor , constant: 38),
+            titleLabel1.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor , constant: 32),
+            titleLabel2.topAnchor.constraint(equalTo: lineImage.topAnchor , constant: 38),
+            titleLabel2.leadingAnchor.constraint(equalTo: titleLabel1.trailingAnchor , constant: 0),
+
+            titleLabel3.topAnchor.constraint(equalTo: titleLabel1.bottomAnchor , constant: 3),
+            titleLabel3.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 32),
+
+            titleLabel4.topAnchor.constraint(equalTo: titleLabel3.bottomAnchor , constant: 499),
+            titleLabel4.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
-            skipButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 33.2),
-            skipButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -55.1),
+            nextButton.topAnchor.constraint(equalTo: titleLabel4.bottomAnchor, constant: 19),
+            nextButton.leadingAnchor.constraint(equalTo: line.trailingAnchor, constant: 10.6),
+            nextButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -32),
+            nextButton.heightAnchor.constraint(equalToConstant: 48),
+ 
+            skipButton.topAnchor.constraint(equalTo: titleLabel4.bottomAnchor , constant: 26),
+            skipButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor , constant: 33.2),
+            
             
             line.widthAnchor.constraint(equalToConstant: 2),
             line.heightAnchor.constraint(equalToConstant: 20),
-            line.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -62.1),
-            line.leadingAnchor.constraint(equalTo: skipButton.trailingAnchor, constant: 8.6),
+            line.topAnchor.constraint(equalTo: titleLabel4.bottomAnchor, constant: 33),
+            line.leadingAnchor.constraint(equalTo: skipButton.trailingAnchor , constant: 8.6 ),
+
+//            nextButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -13.5),
+//            nextButton.leadingAnchor.constraint(equalTo: line.trailingAnchor, constant: 10.6),
+//            nextButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -32),
+//            nextButton.heightAnchor.constraint(equalToConstant: 48),
+//            
+//            skipButton.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 33.2),
+//            skipButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -55.1),
+//            
+//            line.widthAnchor.constraint(equalToConstant: 2),
+//            line.heightAnchor.constraint(equalToConstant: 20),
+//            line.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -62.1),
+//            line.leadingAnchor.constraint(equalTo: skipButton.trailingAnchor, constant: 8.6),
         ])
     }
     
@@ -106,9 +176,12 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             switch i {
             case 0:
                 addLabelToPage(page, text: "Welcome to Page 1")
+                
             case 1:
+                
                 addButtonToPage(page)
             case 2:
+                
                 addImageToPage(page)
             default:
                 break
